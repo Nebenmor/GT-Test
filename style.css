@@ -226,3 +226,20 @@ a.btn.cyan:hover {
     opacity: 0;
     animation-delay: 1600ms;
 }
+
+.hero-container .right {
+    animation: fadeToLeft 1200ms forwards;
+    opacity: 0;
+    animation-delay: 900ms;
+}
+
+@keyframes fadeToLeft {
+    from {
+        transform: translateX(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
