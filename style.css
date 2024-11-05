@@ -10,3 +10,18 @@
     --cyan-hover-clor: #6afe31;
 }
 
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    width: 1152px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
