@@ -213,3 +213,16 @@ a.btn.cyan:hover {
         transform: translateX(0);
     }
 }
+
+/* buttons animation */
+.hero-container .left .btn:nth-of-type(1) {
+    animation: fadeIn 1000ms forwards;
+    opacity: 0;
+    animation-delay: 1400ms;
+}
+
+.hero-container .left .btn:nth-of-type(2) {
+    animation: fadeIn 1000ms forwards;
+    opacity: 0;
+    animation-delay: 1600ms;
+}
