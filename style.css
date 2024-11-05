@@ -7,7 +7,7 @@
     --cyan-color: #41ead4;
 
     --red-hover-color: #be0732;
-    --cyan-hover-clor: #6afe31;
+    --cyan-hover-clor: #6af3e1;
 }
 
 * {
@@ -83,12 +83,21 @@ a.btn {
     border-radius: 24px;
     padding: 14px 30px;
     text-decoration: none;
+    font-weight: bold;
+    transition: background 400ms;
 }
 
 a.btn.cyan {
     background: var(--cyan-color);
     color: var(--dark-color);
-    font-weight: bold;
+}
+
+a.btn:hover {
+    background: var(--red-hover-color);
+}
+
+a.btn.cyan:hover {
+    background: var(--cyan-hover-clor);
 }
 
 /* Hero Section */
@@ -97,6 +106,10 @@ a.btn.cyan {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.hero-container .left {
+    flex: 1; /* makes it take as much width as possible*/
 }
 
 .hero-container .left p {
@@ -121,8 +134,33 @@ a.btn.cyan {
     padding: 30px;
 }
 
+/* Hero BG and Polygons */
+.hero-bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
 
-.polygon-container {
-    display: none;
+.hero-container .polygon {
+    position: absolute;
+    z-index: -1;
+    top: 100px;
+    left: 240px;
+}
+
+.hero-container .polygon2 {
+    position: absolute;
+    z-index: -1;
+    top: 100px;
+    left: 480px;
+}
+
+.hero-container .polygon3 {
+    position: absolute;
+    z-index: -1;
+    top: 300px;
+    left: 540px;
 }
 
