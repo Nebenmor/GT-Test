@@ -285,3 +285,21 @@ a.btn.cyan:hover {
     height: 32px;
 }
 
+.brands-section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    color: var(--dark-color);
+    margin-bottom: 48px;
+    text-align: center;
+    position: relative;
+}
+
+.brands-section h2:after {
+    content: " ";
+    width: 43px;
+    height: 3px;
+    position: absolute;
+    background: var(--red-color);
+    top: 40px;
+    transform: translateX(-43px);
+}
