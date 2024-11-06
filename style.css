@@ -198,8 +198,8 @@ a.btn.cyan:hover {
 /* hero h1 text animation */
 .hero-container .left h1 {
     animation: fadeToRight 800ms forwards cubic-bezier(0.22, 0.32, 0, 1.54);
-     opacity: 0;
-     animation-delay: 800ms;
+    opacity: 0;
+    animation-delay: 800ms;
 }
 
 @keyframes fadeToRight {
@@ -264,4 +264,19 @@ a.btn.cyan:hover {
     to {
         transform: rotate(0deg);
     }
+}
+
+/* Brands section */
+.brands-section {
+    box-shadow: 0px 4px 16px rgba (0, 0, 0, 0.12);
+    border-radius: 24px;
+    background: var(--light-color);
+    padding: 32px 50px;
+    margin-top: 100px;
+}
+
+.brands-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
