@@ -330,3 +330,15 @@ section h2:after {
     margin-left: 100px;
 }
 
+/* Projects section */
+.projects-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px 18px; /* row and column gap respectively*/
+    margin-bottom: 42px; 
+}
+
+.projects-gallery img {
+    width: 100%;
+    object-fit: cover; /* to ensure the aspect ratio is preserved */
+}
