@@ -280,3 +280,8 @@ a.btn.cyan:hover {
     justify-content: space-between;
     align-items: center;
 }
+
+.brands-section .brands-container img {
+    height: 32px;
+}
+
