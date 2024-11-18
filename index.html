@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GT Test</title>
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./style.css">
+    <!-- Glider CSS -->
+     <link rel="stylesheet" href="./glider.min.css">
 </head>
 <body>
     <div class="wrapper">
@@ -164,19 +168,37 @@
                         </div>
                     </div>
                 </div>
-            <span class="slider-prev">
-                <img src="./images/LeftArrow.svg" alt="RightArrow">
-            </span>
-            
-            <span class="slider-next">
-                <img src="./images/RightArrow.svg" alt="RightArrow">
-            </span>
+                <span class="slider-prev">
+                    <img src="./images/LeftArrow.svg" alt="RightArrow">
+                </span>
+                
+                <span class="slider-next">
+                    <img src="./images/RightArrow.svg" alt="RightArrow">
+                </span>
+
+                <div role="tablist" class="dots-container">
+                    <div class="dots"></div>
+                </div>
             </div>
         </div>
     </section>  
     <!-- End of Testimonial Section -->
 
+    <!-- Glider JS -->
+     <script src="./glider.min.js"></script>
 
+     <script>
+        new Glider(document.querySelector(".testimonials"), {
+            slidesToShow: 1,
+            dots: '.dots',
+            arrows: {
+                prev: ".slider-prev",
+                next: ".slider-next",
+            },
+        });
+     </script>
+
+     <!-- Custom JS -->
     <script src="./main.js"></script>
 </body>
 </html>
