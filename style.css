@@ -44,7 +44,7 @@ p {
     justify-content: space-between;
     align-items: center;
     background: var(--light-color);
-    box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 0px 11px rgba(0, 0, 0, 0.1);
     border-radius: 24px;
     padding: 2px 30px;
 
@@ -342,3 +342,4 @@ section h2:after {
     width: 100%;
     object-fit: cover; /* to ensure the aspect ratio is preserved */
 }
+
