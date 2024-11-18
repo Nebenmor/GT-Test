@@ -442,3 +442,24 @@ footer a:hover {
     margin: 16px 0;
 }
 
+.footer-container .footer-social {
+    margin: 30px 0 24px 0;
+}
+
+.footer-container .footer-social a {
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer-container .footer-social a:first-child {
+    margin-left: 0;
+}
+
+.footer-container .footer-social a img {
+    transition: transform 500ms;
+}
+
+.footer-container .footer-social a img:hover {
+    transform: scale(1.2);
+}
+
