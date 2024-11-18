@@ -463,3 +463,6 @@ footer a:hover {
     transform: scale(1.2);
 }
 
+.copyright {
+    text-align: center;
+}
