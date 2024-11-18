@@ -428,3 +428,7 @@ footer a:hover {
     padding: 100px 0 32px 0;
 }
 
+.footer-container .logo {
+    align-self: center;
+}
+
