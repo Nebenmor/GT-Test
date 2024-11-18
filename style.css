@@ -355,3 +355,11 @@ section h2:after {
     padding: 8px 24px;
 }
 
+.testimonial .name {
+    background: var(--dark-color);
+    color: var(--light-color);
+    padding: 8px 24px;
+    display: inline-block;
+    margin-left: 16px;
+}
+
