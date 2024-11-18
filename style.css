@@ -10,6 +10,10 @@
     --cyan-hover-clor: #6af3e1;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
