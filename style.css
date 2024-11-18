@@ -343,3 +343,15 @@ section h2:after {
     object-fit: cover; /* to ensure the aspect ratio is preserved */
 }
 
+/* Testimonial Section */
+.slide-container {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.slide-container .content {
+    padding: 8px 24px;
+}
+
