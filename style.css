@@ -652,5 +652,18 @@ footer a:hover {
         margin-bottom: 30px;
     }
 
-    
+    /* Footer Section */
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .footer-container .footer-nav {
+        margin-top: 80px;
+    }
+
+    .footer-container .logo {
+        order: 2;
+    }
 }
